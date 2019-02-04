@@ -46,3 +46,5 @@ INSERT INTO facturas_item (cantidad, factura_id, producto_id) VALUES (2,2,3);
 
 
 INSERT INTO proveedores(empresa,create_at,email,nombre,telefono)VALUES('FoodCourt',NOW(),'dasdasd@gmail.com','Juan Galindo',94233231);
+INSERT INTO proveedores(empresa,create_at,email,nombre,telefono)VALUES('FoodCourt',NOW(),'dasdasd@gmail.com','Juan Galindo',94233231);
+INSERT INTO proveedores(empresa,create_at,email,nombre,telefono)VALUES('FoodCourt',NOW(),'dasdasd@gmail.com','Juan Galindo',94233231);
