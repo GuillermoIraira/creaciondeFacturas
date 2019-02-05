@@ -12,15 +12,19 @@ public interface IProveedorService {
 	
 	    public List<Proveedor> findAll();
 		
-		public Page<Proveedor> findAll(Pageable pageable);
+	    public Page<Proveedor> findAll(Pageable pageable);
 
 		public void save(Proveedor proveedor);
 		
 		public Proveedor findOne(Long id);
+		
+		public void delete(Long id);
+
+	
 
 }
 	
 	
 	
 
-}
+
